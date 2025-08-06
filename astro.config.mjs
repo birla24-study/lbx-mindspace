@@ -23,6 +23,42 @@ export default defineConfig({
 					],
 				},
 				{
+					label: 'Biology',
+					autogenerate: { directory: 'BIO201X' },
+				},
+				{
+					label: 'Biology',
+					autogenerate: { directory: 'BIO203X' },
+				},
+				{
+					label: 'Biology',
+					autogenerate: { directory: 'BIO205Y' },
+				},
+				{
+					label: 'Chemistry',
+					autogenerate: { directory: 'CHM221X' },
+				},
+				{
+					label: 'Chemistry',
+					autogenerate: { directory: 'CHM211X' },
+				},
+				{
+					label: 'Chemistry',
+					autogenerate: { directory: 'CHM223X' },
+				},
+				{
+					label: 'Earth Sciences',
+					autogenerate: { directory: 'EES201X' },
+				},
+				{
+					label: 'Earth Sciences',
+					autogenerate: { directory: 'EES205' },
+				},
+				{
+					label: 'Earth Sciences',
+					autogenerate: { directory: 'EES207' },
+				},
+				{
 					label: 'Guides',
 					items: [
 						// Each item here is one entry in the navigation menu.
