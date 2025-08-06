@@ -14,6 +14,15 @@ export default defineConfig({
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/birla24-study/lbx-mindspace' }],
 			sidebar: [
 				{
+					label: 'Getting Started',
+					items: [
+						{ label: 'Getting Started', slug: 'index' },
+						{ label: 'Random Note 1', slug: 'random-note-1' },
+						{ label: 'Random Note 2', slug: 'random-note-2' },
+						{ label: 'Fun Facts', slug: 'fun-facts' },
+					],
+				},
+				{
 					label: 'Guides',
 					items: [
 						// Each item here is one entry in the navigation menu.
