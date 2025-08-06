@@ -12,62 +12,42 @@ export default defineConfig({
 			plugins: [starlightThemeObsidian()],
 			title: 'LBX\'s Mindspace',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/birla24-study/lbx-mindspace' }],
-			sidebar: [
+				sidebar: [
 				{
-					label: 'Getting Started',
-					items: [
-						{ label: 'Getting Started', slug: 'index' },
-						{ label: 'Random Note 1', slug: 'random-note-1' },
-						{ label: 'Random Note 2', slug: 'random-note-2' },
-						{ label: 'Fun Facts', slug: 'fun-facts' },
-					],
-				},
-				{
-					label: 'Biology',
+					label: 'BIO201X',
 					autogenerate: { directory: 'BIO201X' },
 				},
 				{
-					label: 'Biology',
+					label: 'BIO203X',
 					autogenerate: { directory: 'BIO203X' },
 				},
 				{
-					label: 'Biology',
+					label: 'BIO205Y',
 					autogenerate: { directory: 'BIO205Y' },
 				},
 				{
-					label: 'Chemistry',
+					label: 'CHM221X',
 					autogenerate: { directory: 'CHM221X' },
 				},
 				{
-					label: 'Chemistry',
+					label: 'CHM211X',
 					autogenerate: { directory: 'CHM211X' },
 				},
 				{
-					label: 'Chemistry',
+					label: 'CHM223X',
 					autogenerate: { directory: 'CHM223X' },
 				},
 				{
-					label: 'Earth Sciences',
+					label: 'EES201X',
 					autogenerate: { directory: 'EES201X' },
 				},
 				{
-					label: 'Earth Sciences',
+					label: 'EES205',
 					autogenerate: { directory: 'EES205' },
 				},
 				{
-					label: 'Earth Sciences',
+					label: 'EES207',
 					autogenerate: { directory: 'EES207' },
-				},
-				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
-					],
-				},
-				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
 				},
 			],
 		}),
