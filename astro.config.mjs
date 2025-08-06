@@ -8,7 +8,7 @@ export default defineConfig({
 	base: '/lbx-mindspace',
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'LBX\'s Mindspace',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/birla24-study/lbx-mindspace' }],
 			sidebar: [
 				{
