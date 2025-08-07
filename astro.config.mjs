@@ -9,7 +9,9 @@ export default defineConfig({
 	base: '/lbx-mindspace',
 	integrations: [
 		starlight({
-			plugins: [starlightThemeObsidian()],
+			plugins: [starlightThemeObsidian({
+               graph: false
+            })],
 			title: 'LBX\'s Mindspace',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/birla24-study/lbx-mindspace' }],
 				sidebar: [
